@@ -1,0 +1,22 @@
+:root{
+    --red:#C40C0C;
+    --white:#fff;
+    --fontfamily:"Playfair Display", serif;
+}
+
+.nav{
+    border-bottom: 1px solid var(--red);
+    color:var(--white) !important;
+    font-family: var(--fontfamily);
+    font-size: large;
+}
+.headName{
+    font-size: xx-large;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400 !important;
+    color:var(--red) ;
+}
+.toggle{
+    color:var(--white);
+    background-color:var(--white);
+}

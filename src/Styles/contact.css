@@ -1,0 +1,21 @@
+:root{
+    --red:#C40C0C;
+    --white:#fff;
+    --fontfamily:"Playfair Display", serif;
+}
+*{
+    font-family: var(--fontfamily);
+    color: var(--white);
+    overflow-x: hidden;
+}
+.contact-text{
+    font-size: 4rem;
+    color: var(--red);
+    margin: 20px;
+}
+button{
+    border: 1px solid var(--red) !important;
+    margin: 1rem !important;
+    color: var(--white) !important;
+    background-color: transparent !important;
+}
