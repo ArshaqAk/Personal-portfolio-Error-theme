@@ -34,14 +34,14 @@ const Header = () => {
           <MDBNavbarNav>
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page' >
-              <Link  className='text-light' to={'/'}>Home</Link>
+              <Link  className='text-light menu-item' to={'/'}>Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             {/* <MDBNavbarItem>
-              <MDBNavbarLink><Link  className='text-light' to={'/services'}>Services</Link></MDBNavbarLink>
+              <MDBNavbarLink><Link  className='text-light menu-item' to={'/services'}>Services</Link></MDBNavbarLink>
             </MDBNavbarItem> */}
             <MDBNavbarItem>
-              <MDBNavbarLink><Link  className='text-light' to={'/contact'}>Contact Me</Link></MDBNavbarLink>
+              <MDBNavbarLink><Link  className='text-light menu-item' to={'/contact'}>Contact Me</Link></MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

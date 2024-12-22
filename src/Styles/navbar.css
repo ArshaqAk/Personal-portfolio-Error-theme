@@ -19,4 +19,10 @@
 .toggle{
     color:var(--white);
     background-color:var(--white);
+    width: 45px;     
+    height: 35px;  
+}
+.menu-item:hover{
+   color: var(--red) !important;
+   transition: 0.2s;
 }

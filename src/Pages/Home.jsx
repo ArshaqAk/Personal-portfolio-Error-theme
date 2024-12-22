@@ -14,20 +14,19 @@ const Home = () => {
       <div className="row first-row">
         <div className="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center ">
           <h1>Hi, I Am Arshaq Ak </h1>
-          <h2><span className='name'>Mern stack </span>  developer</h2>
+          <h2><span className='name'>Mern Stack </span>  Developer</h2>
           <div className="buttons">
-          <a  href="mailto:arshaqakard@gmail.com?subject=&body="> <button className='btn '>Hire Me</button></a>
             <a  href="../assets/ARSHAQ AK-RESUME" download><button className='btn '>Download Cv</button></a>
           </div>
-          <div className="social-icons-div">
+          {/* <div className="social-icons-div">
           <i class="fa-brands fa-linkedin-in"></i>
           <i class="fa-brands fa-github"></i>
           <i class="fa-brands fa-x-twitter"></i>
           <i class="fa-brands fa-instagram"></i>
-          </div>
+          </div> */}
         </div>
-        <div className="col-lg-6 col-sm-12 home-right d-flex flex-column justify-content-center align-items-center">
-            {/* <div className="circle"></div> */}
+        <div className="col-lg-6 col-sm-12">
+            
         </div>
       </div>
       {/* second row */}
@@ -49,7 +48,7 @@ const Home = () => {
               <div className="coding-skill" >
                 <div className="rangeBox-container">
                   <div className="title-div">
-                    <h6>HTML</h6>
+                    <h6>React Js</h6>
                     <h6>90%</h6>
                   </div>
                   <div className="range-container">
@@ -59,7 +58,7 @@ const Home = () => {
 
                 <div className="rangeBox-container">
                   <div className="title-div">
-                    <h6>CSS</h6>
+                    <h6>Express Js</h6>
                     <h6>85%</h6>
                   </div>
                   <div className="range-container">
@@ -69,7 +68,7 @@ const Home = () => {
                 
                 <div className="rangeBox-container">
                   <div className="title-div">
-                    <h6>JAVASCRIPT</h6>
+                    <h6>Mongo DB</h6>
                     <h6>74%</h6>
                   </div>
                   <div className="range-container">
@@ -82,7 +81,7 @@ const Home = () => {
           <div className="coding-skill">
                 <div className="rangeBox-container">
                   <div className="title-div">
-                    <h6>WEB DISGN</h6>
+                    <h6>Web Designing</h6>
                     <h6>80%</h6>
                   </div>
                   <div className="range-container">
@@ -92,7 +91,7 @@ const Home = () => {
 
                 <div className="rangeBox-container">
                   <div className="title-div">
-                    <h6>WEB DEVELOPMENT</h6>
+                    <h6>Web Development</h6>
                     <h6>90%</h6>
                   </div>
                   <div className="range-container">
