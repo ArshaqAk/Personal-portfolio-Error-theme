@@ -45,7 +45,7 @@ const Home = () => {
           <i class="fa-brands fa-instagram"></i>
           </div> */}
         </div>
-        <div className="col-lg-6 col-sm-12  d-flex justify-content-center align-items-center">
+        <div className="col-lg-6 col-sm-12 right-div d-flex justify-content-center align-items-center">
             <img className='profile-img mt-2' src={profile_pic} alt="" />
         </div>
       </div>

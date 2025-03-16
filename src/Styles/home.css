@@ -151,12 +151,14 @@ a{
 .third-row{
     margin-bottom: 20vh;
 }
+.right-div{
+    overflow: hidden !important;
+}
 .profile-img{
     width: 60%;
     /* mix-blend-mode: multiply; */
+    overflow: hidden !important;
 
-
-   
 }
 
 /* spinner */
