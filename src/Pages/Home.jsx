@@ -1,15 +1,35 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../Components/Header'
 import '../Styles/home.css'
 import AOS from 'aos';
+import { MDBSpinner } from 'mdb-react-ui-kit';
 import 'aos/dist/aos.css';
+import profile_pic from '../assets/profile_pic.jpg'
+
 const Home = () => {
   useEffect(()=>{
     AOS.init()
   },[])
+
+  //spinner
+  const [spinner,setSpinnr]=useState(true)
+
+  setTimeout(()=>{
+    setSpinnr(false)
+  },1500)
+
   return (
     <>
-    <Header/>
+  {
+    spinner?
+    <div className="spinner-container">
+      <MDBSpinner role='status' className='spinner'>
+      <span className='visually-hidden '>Loading...</span>
+      </MDBSpinner>
+    </div>
+  : 
+  <div className="container-fluid">
+      <Header/>
     <div className="container">
       <div className="row first-row">
         <div className="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center ">
@@ -25,8 +45,8 @@ const Home = () => {
           <i class="fa-brands fa-instagram"></i>
           </div> */}
         </div>
-        <div className="col-lg-6 col-sm-12">
-            
+        <div className="col-lg-6 col-sm-12  d-flex justify-content-center align-items-center">
+            <img className='profile-img mt-2' src={profile_pic} alt="" />
         </div>
       </div>
       {/* second row */}
@@ -113,6 +133,9 @@ const Home = () => {
           </div>
         </div>
     </div>
+  </div>
+  }
+  
     </>
   )
 }

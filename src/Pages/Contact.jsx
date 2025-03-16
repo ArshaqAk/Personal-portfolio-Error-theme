@@ -6,7 +6,7 @@ const Contact = () => {
     <Header/>
     <div className='container'>
       <div className="row">
-        <div className="col-12 d-flex  justify-content-center">
+        <div className="col-12 d-flex  justify-content-center text-center">
             <h1 className='contact-text'><span>CONTACT</span> ME</h1>
         </div>
       </div>

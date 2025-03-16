@@ -151,3 +151,23 @@ a{
 .third-row{
     margin-bottom: 20vh;
 }
+.profile-img{
+    width: 60%;
+    /* mix-blend-mode: multiply; */
+
+
+   
+}
+
+/* spinner */
+.spinner-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.spinner{
+    color: var(--red);
+}
