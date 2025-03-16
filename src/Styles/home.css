@@ -153,6 +153,7 @@ a{
 }
 .right-div{
     overflow: hidden !important;
+    padding-top: 1rem;
 }
 .profile-img{
     width: 60%;
